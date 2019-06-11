@@ -1,0 +1,10 @@
+.NavBar {
+  background: white !important;
+  .navbar-nav {
+    align-items: center;
+    background: none !important;
+    li {
+      margin: 0 5px;
+    }
+  }
+}
