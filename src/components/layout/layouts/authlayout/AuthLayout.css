@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+.auth {
+  height: 100%;
+  background: white;
+}
+
+.AuthLayout {
+  height: 100%;
+}
+
+.AuthLayout .container-fluid {
+  padding-right: 0;
+}
+
+.AuthLayout .y-login-body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.AuthLayout .y-login-body img {
+  height: 100%;
+}
+
+.AuthLayout .y-auth-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.AuthLayout .y-auth-bg img {
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+}
+/*# sourceMappingURL=AuthLayout.css.map */

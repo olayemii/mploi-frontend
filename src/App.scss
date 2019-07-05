@@ -1,6 +1,73 @@
 @import "./styles/theme";
+@import "./styles/default";
+
+html,
+body,
+#root,
+.App {
+  height: 100% !important;
+}
 
 body {
-  font-family: $primary-font;
   background-color: $background-gray !important;
+  overflow-x: hidden;
+  * {
+    font-family: $primary-font;
+  }
+
+  // /* width */
+  // &::-webkit-scrollbar {
+  //   width: 7px;
+  // }
+
+  // /* Handle */
+  // &::-webkit-scrollbar-thumb {
+  //   background: rgb(216, 214, 214);
+  //   border-radius: 10px;
+  // }
+
+  .container-fluid {
+    @media screen and (min-width: 1024px) {
+      padding: 0 7rem;
+    }
+  }
+
+  .row {
+    @media screen and (max-width: 576px) {
+      margin: 0px !important;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 576px) {
+    .y-padding-section {
+      padding: 5rem 0;
+    }
+
+    .mt-sm-3 {
+      margin-top: 1rem !important;
+    }
+
+    .px-sm-3 {
+      padding-left: 2.5rem !important;
+      padding-right: 2.5rem !important;
+    }
+
+    .y-hidden-sm-down {
+      display: none !important;
+    }
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+  }
+  @media screen and (min-width: 993) and (max-width: 1200px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    .y-padding-section {
+      padding: 10rem 0;
+    }
+  }
 }

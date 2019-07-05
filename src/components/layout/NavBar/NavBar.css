@@ -1,15 +1,24 @@
 .NavBar {
-  background: white !important;
+  background: white;
 }
 
-.NavBar .navbar-nav {
+.NavBar .navbar {
+  padding: 0.5rem 0;
+}
+
+.NavBar .navbar .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.NavBar .navbar .navbar-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: none !important;
+  background: none;
 }
 
-.NavBar .navbar-nav li {
+.NavBar .navbar .navbar-nav li {
   margin: 0 5px;
 }
 /*# sourceMappingURL=NavBar.css.map */

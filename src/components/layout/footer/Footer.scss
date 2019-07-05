@@ -1,0 +1,48 @@
+@import "../../../styles/theme";
+.y-social-icon {
+  i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  svg {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.Footer {
+  height: 50vh;
+  background-color: $navy;
+  color: white;
+  padding: 100px 0;
+  h6 {
+    font-size: 1.05rem !important;
+  }
+  .y-quick-links {
+    span {
+      color: $text-light-gray;
+    }
+  }
+  .y-spaced-logo {
+    letter-spacing: 10px;
+  }
+
+  @media screen and (max-width: 576px) {
+    height: auto;
+
+    .y-logo-column {
+      margin-bottom: 50px;
+    }
+  }
+}

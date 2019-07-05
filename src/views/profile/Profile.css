@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+.Profile .progress {
+  height: 8px;
+}
+
+.Profile .NavBar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.Profile .container-fluid {
+  padding: 0 2.65rem;
+}
+
+.Profile .y-profile-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Profile .y-profile-body aside {
+  width: 320px;
+  height: calc(100vh - 56px);
+  position: fixed;
+  background: white;
+}
+
+.Profile .y-profile-body aside .y-menu-control-strip {
+  width: 40px;
+  border-right: 1px solid #e7e7e7;
+  height: 100%;
+}
+
+.Profile .y-profile-body aside .y-menu-control-strip i {
+  margin: 20px 0;
+}
+
+.Profile .y-profile-body aside .y-user-profile-intro {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.Profile .y-profile-body aside .y-user-profile-intro .y-profile-photo {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Profile .y-profile-body aside .y-user-profile-intro .y-profile-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.Profile .y-profile-body aside .y-user-profile-intro .y-normal {
+  font-weight: 300;
+}
+
+.Profile .y-profile-body main {
+  position: relative;
+  width: calc(100% - 320px);
+  left: 320px;
+}
+
+.Profile .y-profile-body main .y-main-body {
+  padding: 25px;
+}
+
+.Profile .y-profile-body main .y-main-body .y-job-find-status {
+  background: white;
+  padding: 20px 15px;
+}
+
+.Profile .y-profile-body main .y-main-body .y-job-find-status button {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.Profile .y-profile-body main .y-main-body .y-user-details .card {
+  padding: 2.5rem;
+  border: none;
+}
+
+.Profile .y-profile-body main .y-main-body .y-user-details .card .card-body {
+  padding: 0;
+}
+
+.Profile .y-profile-body main .y-main-body .y-user-details .card .card-body p {
+  font-weight: 300;
+}
+
+.Profile .y-profile-body main .y-main-body .y-first-cards .y-proficiencometer .y-typo {
+  margin: 0;
+}
+/*# sourceMappingURL=Profile.css.map */

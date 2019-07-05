@@ -1,9 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
 
 // Font
 
-$primary-font: "Titillium Web", sans-serif;
+$primary-font: "Roboto", sans-serif;
 
 // Colors
-
+$primary-color: #6c63ff;
 $background-gray: #f5f9fc;
+$grey: rgb(231, 231, 231);
+$secondary-text: #57ce87;
+
+$danger-color: #f34141;
+
+$text-gray: #707070;
+$text-light-gray: #bcbcbc;
+$navy: #09061e;
+$text-heading: #0f0d31;

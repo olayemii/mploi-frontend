@@ -1,0 +1,14 @@
+.MainLayout .NavBar {
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  top: 0;
+}
+
+.MainLayout #y-main-content {
+  position: relative;
+  top: 56px;
+}
+/*# sourceMappingURL=MainLayout.css.map */

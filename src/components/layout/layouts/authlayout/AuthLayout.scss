@@ -1,0 +1,26 @@
+@import "../../../../styles/theme";
+.auth {
+  height: 100%;
+  background: white;
+}
+.AuthLayout {
+  height: 100%;
+  .container-fluid {
+    padding-right: 0;
+  }
+  .y-login-body {
+    box-sizing: border-box;
+    img {
+      height: 100%;
+    }
+  }
+  .y-auth-bg {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100vh;
+      background-size: contain;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.MainLayout {
+  .NavBar {
+    width: 100%;
+    position: fixed;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08);
+    z-index: 10;
+    top: 0;
+  }
+
+  #y-main-content {
+    position: relative;
+    top: 56px;
+  }
+}

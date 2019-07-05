@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+.y-social-icon i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 10px;
+}
+
+.y-social-icon svg {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: block;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer {
+  height: 50vh;
+  background-color: #09061e;
+  color: white;
+  padding: 100px 0;
+}
+
+.Footer h6 {
+  font-size: 1.05rem !important;
+}
+
+.Footer .y-quick-links span {
+  color: #bcbcbc;
+}
+
+.Footer .y-spaced-logo {
+  letter-spacing: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .Footer {
+    height: auto;
+  }
+  .Footer .y-logo-column {
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

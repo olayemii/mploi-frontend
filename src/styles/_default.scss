@@ -1,0 +1,106 @@
+@import "./theme";
+
+button {
+  &.rounded-button {
+    &.btn {
+      border-radius: 18px;
+    }
+  }
+}
+.grey-text {
+  color: $text-gray;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-y-primary {
+  background: $primary-color;
+}
+.btn-y-primary-outline,
+.btn-y-primary {
+  border-color: $primary-color !important;
+
+  &:hover {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+  &:active {
+    box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+    border-color: transparent !important;
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+  }
+}
+
+.btn-y-danger {
+  border-color: $danger-color !important;
+  background-color: $danger-color !important;
+
+  &:hover {
+    background: $danger-color !important;
+    border-color: $danger-color !important;
+  }
+  &:active {
+    box-shadow: 0px 0px 0px 3px #ca56565e !important;
+    border-color: transparent !important;
+  }
+  &:focus {
+    outline: none !important;
+    box-shadow: 0px 0px 0px 3px #ca56565e !important;
+  }
+}
+
+.y-btn-link {
+  background: none !important;
+  border: none !important;
+  color: $primary-color !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.y-bg-primary {
+  background: $primary-color;
+}
+
+.y-text-secondary {
+  color: $secondary-text;
+}
+
+.y-text-primary {
+  color: $primary-color;
+}
+.text-heading {
+  color: $text-heading;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0px !important;
+}
+
+.y-bottom-border {
+  border-bottom: 1px solid $grey;
+}
+.y-font-semibold {
+  font-weight: 500;
+}
+.dgrid {
+  display: grid;
+
+  &.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5em;
+  }
+}
+
+// Form
+
+.y-error-feedback {
+  .y-form-error {
+    font-size: 13px;
+    color: #f34141;
+  }
+}

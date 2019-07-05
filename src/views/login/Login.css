@@ -1,0 +1,42 @@
+.y-social-icon i {
+  color: white;
+}
+
+.y-social-icon i.y-goo-icon {
+  background-color: #2f2993;
+}
+
+.y-social-icon i.y-fb-icon {
+  background-color: #ae3228;
+}
+
+.y-social-icon i.y-lin-icon {
+  background-color: #55acee;
+}
+
+.Login {
+  height: 100%;
+  background: white;
+}
+
+.Login .NavBar {
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  top: 0;
+}
+
+.Login .y-login-body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=Login.css.map */

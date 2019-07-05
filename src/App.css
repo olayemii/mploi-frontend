@@ -1,6 +1,171 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+button.rounded-button.btn {
+  border-radius: 18px;
+}
+
+.grey-text {
+  color: #707070;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.btn-y-primary {
+  background: #6c63ff;
+}
+
+.btn-y-primary-outline,
+.btn-y-primary {
+  border-color: #6c63ff !important;
+}
+
+.btn-y-primary-outline:hover,
+.btn-y-primary:hover {
+  background: #6c63ff !important;
+  border-color: #6c63ff !important;
+}
+
+.btn-y-primary-outline:active,
+.btn-y-primary:active {
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+          box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+  border-color: transparent !important;
+}
+
+.btn-y-primary-outline:focus,
+.btn-y-primary:focus {
+  outline: none !important;
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+          box-shadow: 0px 0px 0px 3px rgba(108, 99, 255, 0.4) !important;
+}
+
+.btn-y-danger {
+  border-color: #f34141 !important;
+  background-color: #f34141 !important;
+}
+
+.btn-y-danger:hover {
+  background: #f34141 !important;
+  border-color: #f34141 !important;
+}
+
+.btn-y-danger:active {
+  -webkit-box-shadow: 0px 0px 0px 3px #ca56565e !important;
+          box-shadow: 0px 0px 0px 3px #ca56565e !important;
+  border-color: transparent !important;
+}
+
+.btn-y-danger:focus {
+  outline: none !important;
+  -webkit-box-shadow: 0px 0px 0px 3px #ca56565e !important;
+          box-shadow: 0px 0px 0px 3px #ca56565e !important;
+}
+
+.y-btn-link {
+  background: none !important;
+  border: none !important;
+  color: #6c63ff !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.y-bg-primary {
+  background: #6c63ff;
+}
+
+.y-text-secondary {
+  color: #57ce87;
+}
+
+.y-text-primary {
+  color: #6c63ff;
+}
+
+.text-heading {
+  color: #0f0d31;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0px !important;
+}
+
+.y-bottom-border {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.y-font-semibold {
+  font-weight: 500;
+}
+
+.dgrid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.dgrid.grid-2 {
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5em;
+}
+
+.y-error-feedback .y-form-error {
+  font-size: 13px;
+  color: #f34141;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100% !important;
+}
+
 body {
-  font-family: "Titillium Web", sans-serif;
   background-color: #f5f9fc !important;
+  overflow-x: hidden;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  body .container-fluid {
+    padding: 0 7rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body .row {
+    margin: 0px !important;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  body .y-padding-section {
+    padding: 5rem 0;
+  }
+  body .mt-sm-3 {
+    margin-top: 1rem !important;
+  }
+  body .px-sm-3 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+  }
+  body .y-hidden-sm-down {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body .y-padding-section {
+    padding: 10rem 0;
+  }
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,0 +1,34 @@
+@import "../../../styles/theme";
+.y-typo {
+  display: block;
+  .y-h1 {
+    letter-spacing: 6px;
+    line-height: 1.5em;
+  }
+
+  .y-h3 {
+  }
+
+  .y-h6 {
+    line-height: 1.49em;
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+
+  .y-span {
+    font-size: 0.91rem;
+    font-weight: 100;
+  }
+
+  .y-normal {
+    font-size: 1rem;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 576px) {
+    .y-h1 {
+      font-size: 1.8rem;
+      letter-spacing: 4px;
+      line-height: 1.4em;
+    }
+  }
+}

@@ -1,0 +1,179 @@
+@import "../../styles/theme";
+.Home {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  .y-home-hero {
+    min-height: calc(100vh - 106px);
+
+    background-size: auto 90%;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    .y-hero-image {
+      //
+      display: block;
+      flex-grow: 1;
+
+      img {
+        width: 500px;
+        height: 500px;
+      }
+    }
+  }
+  .y-subhero {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f9fc;
+
+    svg {
+      transform: scale(1);
+      animation: bubble 1s ease-in-out 0s infinite both;
+    }
+  }
+  @keyframes bubble {
+    0% {
+      transform: scaleX(1);
+    }
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+  .y-second-vp {
+    background: white;
+    .y-sub-text {
+      margin: 0 auto;
+    }
+    .card {
+      border: none;
+      text-align: center;
+    }
+  }
+
+  .y-third-vp {
+    .y-sub-text {
+      align-self: center;
+    }
+
+    .sub-img {
+      flex-grow: 1;
+      text-align: right;
+      img {
+        width: 500px;
+        height: 500px;
+      }
+    }
+  }
+
+  .y-fourth-vp {
+    background: white;
+    .card {
+      .card-title {
+        margin: 0;
+      }
+
+      .card-body {
+        padding: 2.3rem;
+      }
+    }
+  }
+
+  .y-newsl {
+    background: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+
+    .y-newsl-form {
+      display: flex;
+      align-items: center;
+      .form-icon {
+        position: relative;
+        width: 100%;
+        .form-ic {
+          position: absolute;
+          left: calc(100% - 45px);
+          top: 8px;
+        }
+      }
+
+      input[type="text"] {
+        height: 45px;
+        margin: 0 auto;
+        display: block;
+        border: none;
+      }
+
+      input::placeholder {
+        color: $text-gray;
+      }
+    }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 576px) {
+    .row {
+      & > div {
+        padding: 0 !important;
+      }
+    }
+    .card-text,
+    .y-new-jobs-count {
+      text-align: left !important;
+    }
+    .y-third-vp {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .sub-img {
+        text-align: center;
+        img {
+          width: 90%;
+          height: 90%;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .y-home-hero {
+      .y-hero-text {
+        h1 {
+          text-align: center;
+        }
+      }
+      .y-hero-image {
+        text-align: center;
+        img {
+          width: 70%;
+          height: 70%;
+        }
+      }
+      .row {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .y-fourth-vp {
+      .y-slider-row {
+        overflow-x: scroll;
+        padding: 0 7.5px;
+        flex-wrap: nowrap;
+        & > div {
+          width: 80%;
+          flex-grow: 1 !important;
+          flex-shrink: 0;
+          margin-right: 15px;
+        }
+      }
+      .y-h3 {
+        text-transform: lowercase;
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}

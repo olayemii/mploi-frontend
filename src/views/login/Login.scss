@@ -1,0 +1,28 @@
+.y-social-icon {
+  i {
+    color: white;
+
+    &.y-goo-icon {
+      background-color: #2f2993;
+    }
+
+    &.y-fb-icon {
+      background-color: #ae3228;
+    }
+
+    &.y-lin-icon {
+      background-color: #55acee;
+    }
+  }
+}
+.Login {
+  height: 100%;
+  background: white;
+
+  .y-login-body {
+    height: 100vh%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}

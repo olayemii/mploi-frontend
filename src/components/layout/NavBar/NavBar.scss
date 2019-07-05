@@ -1,10 +1,17 @@
 .NavBar {
-  background: white !important;
-  .navbar-nav {
-    align-items: center;
-    background: none !important;
-    li {
-      margin: 0 5px;
+  background: white;
+  .navbar {
+    padding: 0.5rem 0;
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
+    .navbar-nav {
+      align-items: center;
+      background: none;
+      li {
+        margin: 0 5px;
+      }
     }
   }
 }
